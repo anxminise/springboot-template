@@ -1,8 +1,20 @@
+.DS_Store
+
+.idea
+*.iml
+
+# maven
+**/target
+
+# project
+application-production.yml
+
 # Compiled class file
 *.class
 
 # Log file
-*.log
+/logs
+**/*.log
 
 # BlueJ files
 *.ctxt
